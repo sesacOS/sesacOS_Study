@@ -30,7 +30,3 @@ main 권한 가진 사람이 me에 올린 내용을 pull request로 승인해줌
 git add .
 git commit
 git push origin main
-asadadsasd
-asdfasdf
-
-gdgdg

@@ -1,0 +1,264 @@
+[33mcommit 11305f30ea3e2d63d5372dbf972848d5b71b22f8[m[33m ([m[1;36mHEAD -> [m[1;32mtaehee[m[33m, [m[1;31morigin/taehee[m[33m)[m
+Author: DESKTOP-O4MJ0GF\LGE <taehi.dev@gmail.com>
+Date:   Tue Oct 25 19:17:18 2022 +0900
+
+    name
+
+[33mcommit 48155d8f9aab2611e64b7e0b8f0670c9f50f9a0c[m
+Merge: 8543e60 7a6a4ae
+Author: DESKTOP-O4MJ0GF\LGE <taehi.dev@gmail.com>
+Date:   Tue Oct 25 19:13:30 2022 +0900
+
+    Merge branch 'main' of https://github.com/sesacOS/sesacOS_Study into taehee
+
+[33mcommit 7a6a4ae1e7cf2492491b18148fe12ac77f0dad2a[m
+Author: joohee Ok <jooheeok92@gmail.com>
+Date:   Tue Oct 25 19:10:57 2022 +0900
+
+    add git.md
+
+[33mcommit 8543e60fa198745f62d90c22f658933a990cb29e[m
+Author: DESKTOP-O4MJ0GF\LGE <taehi.dev@gmail.com>
+Date:   Tue Oct 25 18:57:09 2022 +0900
+
+    nameerroor
+
+[33mcommit ba734978457fdbc081e573ec877ec5b86c90533d[m
+Merge: 4342ac5 fc5c7db
+Author: anstmdgus <47172522+anstmdgus@users.noreply.github.com>
+Date:   Tue Oct 25 18:50:20 2022 +0900
+
+    Merge pull request #12 from sesacOS/seunghyun
+    
+    승현 update
+
+[33mcommit fc5c7dbdc9d6873dd0a074a9aef9b46fd22a26a9[m
+Author: moon <anstmdgus473@naver.com>
+Date:   Tue Oct 25 18:49:28 2022 +0900
+
+    승현 update
+
+[33mcommit 4342ac5bd56ace7e8018881425fb3ca25e444227[m
+Merge: a925e1d c7d85da
+Author: Been0701 <108451986+Been0701@users.noreply.github.com>
+Date:   Tue Oct 25 18:48:37 2022 +0900
+
+    Merge pull request #11 from sesacOS/yubeen
+    
+    수정 후 커밋
+
+[33mcommit a925e1d6b966efe913fd15ae8f1e9e3501513311[m
+Merge: 5307536 068a3b6
+Author: taehee <113709273+taeheehi@users.noreply.github.com>
+Date:   Tue Oct 25 18:46:44 2022 +0900
+
+    Merge pull request #9 from sesacOS/taehee
+    
+    hello.html upload
+
+[33mcommit 530753648b460d9c21c15608b5168bb265eb99b7[m
+Merge: 1f50a6d 3b1547f
+Author: jooheeok <65056196+jooheeOk@users.noreply.github.com>
+Date:   Tue Oct 25 18:46:27 2022 +0900
+
+    Merge pull request #10 from sesacOS/joohee
+    
+    new branch
+
+[33mcommit 1f50a6d5b4325e4c340e5f75540be97ae37657a5[m
+Merge: 8690aa9 9ad98fb
+Author: sognociel <110799821+sognociel@users.noreply.github.com>
+Date:   Tue Oct 25 18:45:46 2022 +0900
+
+    Merge pull request #8 from sesacOS/bomi
+    
+    test
+
+[33mcommit c7d85da08fc27c6f7dab57c78859daf2cbc5b400[m
+Author: Been0701 <dlwptlwkr93@naver.com>
+Date:   Tue Oct 25 18:45:39 2022 +0900
+
+    수정 후 커밋
+
+[33mcommit 068a3b6f6fc31ac3833905c0360af448eda03c50[m
+Author: DESKTOP-O4MJ0GF\LGE <taehi.dev@gmail.com>
+Date:   Tue Oct 25 18:43:22 2022 +0900
+
+    hello.html upload
+
+[33mcommit 8690aa961854f84381dd71844a2cb79452ce5a36[m
+Merge: 3267f04 f0b427d
+Author: jeongminhui <62429295+jeongminhui@users.noreply.github.com>
+Date:   Tue Oct 25 18:41:32 2022 +0900
+
+    Merge pull request #7 from sesacOS/minhee
+    
+    upload tes
+
+[33mcommit 9ad98fb88901438f195131c7dc6479e34517b952[m
+Author: sognociel <sognociel@gmail.com>
+Date:   Tue Oct 25 18:40:23 2022 +0900
+
+    test
+
+[33mcommit 3267f04d9dfae101f9a26d954eb55c34cee5a246[m
+Merge: 636925d 6390c77
+Author: Been0701 <108451986+Been0701@users.noreply.github.com>
+Date:   Tue Oct 25 18:39:42 2022 +0900
+
+    Merge pull request #6 from sesacOS/yubeen
+    
+    first commit
+
+[33mcommit 636925d7e7a3662be491aa42b84f12e636f2cd5d[m
+Merge: e019a4d 4666e3f
+Author: may-jan <116541435+may-jan@users.noreply.github.com>
+Date:   Tue Oct 25 18:39:15 2022 +0900
+
+    Merge pull request #5 from sesacOS/jaeeun
+    
+    first commit
+
+[33mcommit f0b427d383410a3be15b1491b8ad57af4b547fca[m[33m ([m[1;31morigin/minhee[m[33m)[m
+Author: DESKTOP-881NP36\minhee <jeongminhui0503@gmail.com>
+Date:   Tue Oct 25 18:38:54 2022 +0900
+
+    upload tes
+
+[33mcommit 6390c774f1bc6b9dedcd42f1e0bcddfdc37b18df[m
+Author: Been0701 <dlwptlwkr93@naver.com>
+Date:   Tue Oct 25 18:38:30 2022 +0900
+
+    first commit
+
+[33mcommit 4666e3f97932d7e1bceb9067cde4dc4fbaae104f[m
+Author: jaeeun <jaeeun9862@gmail.com>
+Date:   Tue Oct 25 18:38:03 2022 +0900
+
+    first commit
+
+[33mcommit 3b1547fca345670b2f371f1b38ac29d9c8e171a8[m
+Author: joohee Ok <jooheeok92@gmail.com>
+Date:   Tue Oct 25 18:37:12 2022 +0900
+
+    new branch
+
+[33mcommit e019a4ddbeed61a3e03c3b45bb2e1fcc405bd269[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Tue Oct 25 18:21:25 2022 +0900
+
+    add 1 person
+
+[33mcommit 66b1920aef723a01bf129bb59870fb9e42667f57[m
+Merge: bc28c11 059af82
+Author: yuuulya <95074363+yuuulya@users.noreply.github.com>
+Date:   Tue Oct 25 17:42:19 2022 +0900
+
+    Merge pull request #4 from sesacOS/yuuulya
+    
+    [YUL] week-1 note upload
+
+[33mcommit 059af827eea0ff4807a1c65a0406decef1848fcd[m[33m ([m[1;31morigin/yuuulya[m[33m)[m
+Author: yuuulya <yla101@naver.com>
+Date:   Tue Oct 25 17:41:15 2022 +0900
+
+    [YUL] week-1 note upload
+
+[33mcommit bc28c117bae3645c1457fc5031218d1b3cd08b89[m
+Merge: 8abfe7e 4bbe657
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 20:41:18 2022 +0900
+
+    Merge pull request #3 from sesacOS/seongHyeon
+    
+    test5
+
+[33mcommit 4bbe657819fb13d53037e530c5cfd058d933c6cf[m[33m ([m[1;31morigin/seongHyeon[m[33m)[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 20:37:31 2022 +0900
+
+    test5
+
+[33mcommit 8abfe7eb1dd23c84137b66be8be83b89b3b3debe[m
+Merge: ec149b6 98d320d
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 20:08:48 2022 +0900
+
+    Merge pull request #2 from sesacOS/seongHyeon
+    
+    SH test4
+
+[33mcommit 98d320dddbdb3abb58207414f0a883a3bffc68f2[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 20:06:37 2022 +0900
+
+    SH test4
+
+[33mcommit ec149b628354982af299209a7743065c8219f675[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 19:44:03 2022 +0900
+
+    test3
+
+[33mcommit 16fca52e013b89b566734e4b5d9b425e518adb61[m
+Merge: e6c4e39 061641c
+Author: yuuulya <95074363+yuuulya@users.noreply.github.com>
+Date:   Mon Oct 24 19:41:58 2022 +0900
+
+    Merge pull request #1 from sesacOS/yuuulya
+    
+    github upload test
+
+[33mcommit 061641c4d4533b5c9dacd9a2fbf546084883d0ca[m
+Author: yuuulya <yla101@naver.com>
+Date:   Mon Oct 24 19:22:51 2022 +0900
+
+    github upload test
+
+[33mcommit e6c4e3959ed05213b56594f50ec2b7bc73b7897b[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 13:46:27 2022 +0900
+
+    join 1 people
+
+[33mcommit fc0d21785f94ae123cf8fc17eb25b91ee6947bea[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 13:43:59 2022 +0900
+
+    test2
+
+[33mcommit 4bcfa3ad2a627d98625a7826a155d592b5764da3[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 13:37:22 2022 +0900
+
+    joined 2 people
+
+[33mcommit 9aff9ae68bb692fa240f3d199bba0b658ca33846[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 11:23:11 2022 +0900
+
+    [SH] test
+
+[33mcommit 690ca5d29a8ed0308d7158da24dfe8e9ccad59ca[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 11:21:23 2022 +0900
+
+    Update README.md
+
+[33mcommit f096b5c83ac48284ce99383647520a13dd59531d[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 11:00:14 2022 +0900
+
+    Update README.md
+
+[33mcommit ba666507be258339b4e5945edbab74bd46a3342b[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 10:12:04 2022 +0900
+
+    made folders & files
+
+[33mcommit a085e582a959c0e05e0e815c2ffaa8e8af1c4410[m
+Author: Harimad <leesh68481@gmail.com>
+Date:   Mon Oct 24 10:03:29 2022 +0900
+
+    Initial commit

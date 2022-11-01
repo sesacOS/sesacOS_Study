@@ -23,40 +23,40 @@
 
 ## 3. 운영체제의 분류
 
-1. 동시 작업 가능 여부
-  • 단일 작업 (single tasking)
-    한 번에 하나의 작업만 처리, 한 명령이 끝나야만 다른 명령 수행 가능
+1. 동시 작업 가능 여부<br>
+  • 단일 작업 (single tasking)<br>
+    한 번에 하나의 작업만 처리, 한 명령이 끝나야만 다른 명령 수행 가능<br>
     ex) MS-DOS 
 
-  • 다중 작업 (multi tasking)
-    동시에 두 개 이상의 작업 처리, 한 명령이 진행중이어도 다른 명령 수행 가능
+  • 다중 작업 (multi tasking)<br>
+    동시에 두 개 이상의 작업 처리, 한 명령이 진행중이어도 다른 명령 수행 가능<br>
     ex) UNIX, MS Windows
 
 <br>
 
-2. 사용자의 수
-  • 단일 사용자 (single user)
+2. 사용자의 수<br>
+  • 단일 사용자 (single user)<br>
     ex) MS-DOS, MS Windows
 
-  • 다중 사용자 (multi user)
+  • 다중 사용자 (multi user)<br>
     ex) UNIX, NT server
 
 <br>
 
-3. 처리 방식
-  • 시분할 (time sharing)
-    여러 작업을 수행할 때 컴퓨터 처리 능력을 일정한 시간 단위로 분할하여 사용
-    일괄처리에 비해 짧은 응답시간을 가짐 (ex - UNIX)
-    interactive 방식 (바로 반응이 나오는 방식)
+3. 처리 방식<br>
+  • 시분할 (time sharing)<br>
+    여러 작업을 수행할 때 컴퓨터 처리 능력을 일정한 시간 단위로 분할하여 사용<br>
+    일괄처리에 비해 짧은 응답시간을 가짐 (ex - UNIX)<br>
+    interactive 방식 (바로 반응이 나오는 방식)<br>
 
-  • 실시간 (Realtime OS)
-    정해진 시간 안에 반드시 결과가 나오는 것을 보장하는 시스템
-    ex) 미사일 제어, 반도체 장비, 로보트 제어, 원자로/공장 제어
-          Hard realtime system (경성 실시간 시스템) - 반도체, 미사일, 원자로
+  • 실시간 (Realtime OS)<br>
+    정해진 시간 안에 반드시 결과가 나오는 것을 보장하는 시스템<br>
+    ex) 미사일 제어, 반도체 장비, 로보트 제어, 원자로/공장 제어<br>
+          Hard realtime system (경성 실시간 시스템) - 반도체, 미사일, 원자로<br>
           Soft realtime system (연성 실시간 시스템)  - 영화상영
 
-  • 일괄 처리 (batch processing)
-    작업 요청을 일정량 모은 후 한번에 처리
+  • 일괄 처리 (batch processing)<br>
+    작업 요청을 일정량 모은 후 한번에 처리<br>
     작업이 완전 종료될 때까지 기다려야한다
 <br><br><br><br><br>
 
@@ -92,25 +92,25 @@
 
 ## 5.운영체제의 구조
 
-- CPU
-CPU 스케줄링
+- CPU<br>
+CPU 스케줄링<br>
 CPU를 누구에게 줄지 정하는 것
 
 
-- Memory
-메모리 관리
+- Memory<br>
+메모리 관리<br>
 프로그램이 원활하게 실행되기 위해서 어느정도 수준 이상의 메모리는 주는 것
 
 
-- Disk
-파일관리
+- Disk<br>
+파일관리<br>
 디스크 스케줄링
 
--  I/O device
-입출력 관리
+-  I/O device<br>
+입출력 관리<br>
 각각의 입출력 장치와 컴퓨터 간에 어떻게 정보를 주고 받게 할지
 
-- etc
+- etc<br>
 프로세스 관리
 <br><br><br><br><br>
 

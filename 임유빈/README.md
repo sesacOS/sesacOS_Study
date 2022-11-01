@@ -1,9 +1,24 @@
-## Hello World!
+# 운영체제
 
----
+- 커널 + 유틸리티
+- 자원(하드+소프트웨어)을 효율적으로 관리
+- 처리방식에 따른 분류
 
-## modified
+  - 일괄처리(batch processing) : 작업 요청을 모아서 한꺼번에 처리, 완전 종료될때까지 기다리기
+  - 시분할(time sharing) : 일정한 시간 단위로 처리능력을 분할하여 사용. 짧은 응답 시간.(사용하는 사람이 늘어나면 늦어짐) ex) UNIX
+  - 실시간 (Realtime OS) : 정해진 시간 안에 종료가 보장됨
 
-clone again
+- 유사 용어
 
-git git git
+  - multitasking (여러 프로그램을 동시에)
+  - multiprogramming (여러 프로그램이 동시에 메모리에 올라감)
+  - time sharing (CPU를 나눠서 씀)
+  - multiprocess (여러 프로그램이 동시에 실행됨)
+
+  cf) multiprocessor : 한 컴퓨터에 CPU가 여러개
+
+- 운영 체제의 구조
+  - **CPU** 스케줄링 : 어떤 프로그램에 CPU를 할당할 것인지 조절 (평균 응답시간을 낮추도록)
+  - **메모리** 관리 : 과거를 통해 미래 예측
+  - **Disk** : 파일 관리 (디스크 헤드의 이동을 줄이도록), 스케줄링 필요
+  - **I/O device** : 입출력 관리 (interrupt 기반)

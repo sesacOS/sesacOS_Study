@@ -12,7 +12,15 @@
       src="https://imgnews.pstatic.net/image/277/2022/10/31/0005170039_001_20221031151902889.jpg?type=w647"
       width="400"
     />
-    <a href="https://www.naver.com">네이버</a>
-    image.png --- image.png
+    <a href="https://www.naver.com">네이버</a></br></br></br>
+ <a href="https://steemit.com/kr/@nand/markdown">깃허브 사용법</a>
+</br></br>
+
+## memo
+
+최신 버전의 git git pull -> add -> commit -> push
+
+git switch -c : 생성과 이동
+
   </body>
 </html>

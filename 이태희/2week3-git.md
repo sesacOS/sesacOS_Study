@@ -1,73 +1,14 @@
-🟧운영체제강의 - 2차시
-1️⃣👉System Structure & Program Execution 1
+# 깃허브 올리기! point action
 
-- 컴퓨터 시스템 구조, [01:07]
-- Mode bit, [06:47]
-- Timer, [14:07]
-- Device Controller, [04:35]
-- 입출력(I/O)의 수행, [10:53], [19:47]
-- 동기식 입출력과 비동기식 입출력, [39:55]
-- 시스템콜(System Call), [40:30] [50:03]
-- 인터럽트(Interrupt) [인터럽트 라인 07:15] [43:13] [50:57]
+1️⃣add
+2️⃣commit : 메세지 남겨서 commit하고
+3️⃣ pull(다른 사람들 거 가져오고  
+4️⃣push 하고
+5️⃣깃 홈페이지 가서 내거 확인하면됨.
 
----
+https://taehi-dev.tistory.com/40
+ㄴ[깃허브 공부_자료,링크] 제대로 파는 Git & GitHub - by 얄코
 
-<p align="center"> 
-<img src=https://saegeullee.github.io/static/9794b8622d268f3c45f639f843a6bc89/d945d/os-computer-system.webp width=300 >
-
----
-
-🟪운영체제에 배우기 앞서서, 하드웨어가 어떻게 돌아가는지에 관한 챕터
-
-🟪메모리라는 것은 CPU의 작업공간
-
-🟪CPU는 매 순간(실은 매 클럭사이클)마다 메모리에서 instruction을 하나씩 읽어서 실행하게 된다.
-
-🟪i/o디바이스들은 별개의 디바이스들 (ex 하드디스크 마우스 키보드 프린트 모니터) - 에 작은 cpu가 달려있는데 이것을 device controller라고 함(디바이스들을 전담하는 작은 cpu!)
-
-🟪cpu 안에 mode bit이라는 게 있는데 이 cpu에서 실행되고 있는 것이 운영체제인지 사용자 프로그램인지 구분해줌
-
-🟪작업공간들 : 레지스터
-
-🟪타이머라는 하드웨어의 역할 : 특정 프로그램이 CPU를 독점하는 것을 막기 위한 것
-운영체제가 CPU를 가지고 있다가, 여러 프로그램들이 동작하게 되면 타이머에 값을 세팅하고 사용자에게 CPU를 넘겨줌 ☞
-CPU를 넘겨받은 사용자프로그램은 독점적으로 CPU를 사용하는 것이 아니라 받은 타이머만큼 인스트럭션을 실행할 수 있음.
-하나의 인스트럭션을 끝내고 나면 인터럽트 라인을 체크하고 다시 instruction 실행, interrupt line check ...
-
-🟪커널모드 = 운영체제가 CPU에서 실행중
-
-mode bit이 0일때 운영체제가 cpu를 가지고 있기 때문에 모든 것이 실행 가능  
-사용자가 cpu를 가지고 가게 되면, mode bit 을 1로 바꾸면서 ( 보안때문) cpu를 넘겨주게 됨
-☞이 mode bit을 보고 instruction 접근 영역을 확인하게 된다.
-
-왜? 🟪mode bit [27:10]
-사용자 프로그램의 잘못된 수행으로 다른 프로그램 및 운영체제에 피해가 가지 않도록 하기 위한 보호 장치가 필요하는데 mode bit이 이 역할을 해주게 된다.
-
-🟪Timer[28:20]
-
-🟪Device Controller : I/O 장치유형을 관리하는 작은 CPU
-🟪제어정보를 위한 레지스터 [29:48]
-🟪데이터를 잡는 로컬 버퍼 [30:00]
-
-🟪메모리 컨트롤러 : 교통정리 , 중간중간 작업이 들어왔을 때 CPU는 자기일을 계속하게 하고 해야하는일을 메모리에 복사를 해주고, 보고를 해주어서 인터럽트 당하는 비율을 낮춰줌.
-
-🟪Device Controller : 해당 I/O 장치유형을 관리하는 일종의 작은 CPU
-Device Controller ⊂ Hardware 🆚 Device Drice ⊂ Software
-Device Drice : 각 디바이스를 처리하기 위해서 각자 인터페이스가 있는데 거기에 맞춰 적응 할 수 있게 해주는 소프트웨어 모듈
-
-🟪사용자가 직접X, 운영체제를 통해서만 사용자 프로그램은 I/O를 할 수 있다. ☞ 운영체제에게 부탁!(커널의 함수를 호출하는 것) = 시스템 콜System call🟪
-
-🟪인터럽트는 하드웨어 일꾼들이, CPU에게 정보교신을 하기 위해서 건네 줄 수도 있고 (일반적인 의미의 인터럽트)
-직접 못하고 운영체제에게 대신 처리해달라고 요청해야하는 때에도 세팅을 해서 (소프트웨어가 인터럽트 요청하는 것)
-
-🟪보통, Hardware Interrupt 🆚 Software Interrupt = Trap
-🟪I/O 요청은 Software Interrupt을 통해서,
-I/O 요청이 끝났으면 (I/O컨트롤러가)Hardware Interrupt 을 통해서 알려줌
-
-🟧현대의 운영체제는 인터럽트에 의해 구동됨
-즉, 운영체제는 CPU를 사용할 일이 없고,
-Intrupt가 들어올 때에만 cpu가 운영체제에게로 넘어가는 것 그렇지 않으면 운영체제는 항상 사용자 프로그램이 사용하게 된다.
-
-🟪시스템 콜 : 사용자 프로그램이 운영체제에게 무언가 부탁할 때 - 시스템 콜을 통해서 부탁.
-
-🟪인터럽트 처리 루틴 = 각 inturrupt마다 실제 실행해야하는 코드 - 처리해야하는 인터럽트 처리 루틴 주소 : 인터럽트 벡터
+https://taehi-dev.tistory.com/41
+ㄴCS/git
+제대로 파는 Git & GitHub - by 얄코 - 인프런 | 강의 (inflearn.com) : 목차

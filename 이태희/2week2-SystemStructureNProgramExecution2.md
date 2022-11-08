@@ -16,7 +16,7 @@
 ---
 
 <p align="center"> 
-<img src=https://saegeullee.github.io/static/9794b8622d268f3c45f639f843a6bc89/d945d/os-computer-system.webp width=300 >
+<img src=https://saegeullee.github.io/static/9794b8622d268f3c45f639f843a6bc89/d945d/os-computer-system.webp width=800 >
 
 ---
 
@@ -65,7 +65,7 @@ i/o 명령어(instruction) 따로 있고
 저장장치 계층 구조
 
 <p align="center"> 
-<img src=https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa50b213e-c3f9-4c43-add1-bf54251fd95b%2FUntitled.png&blockId=69a133c6-0931-4682-a854-6cc6900b3917 width=300 >
+<img src=https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa50b213e-c3f9-4c43-add1-bf54251fd95b%2FUntitled.png&blockId=69a133c6-0931-4682-a854-6cc6900b3917 width=800 >
 
 🟪저장장치 계층 구조  
 Primary - CPU가 직접 접근 가능  

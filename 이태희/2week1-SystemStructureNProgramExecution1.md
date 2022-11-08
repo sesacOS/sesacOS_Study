@@ -13,7 +13,7 @@
 ---
 
 <p align="center"> 
-<img src=https://saegeullee.github.io/static/9794b8622d268f3c45f639f843a6bc89/d945d/os-computer-system.webp width=300 >
+<img src=https://saegeullee.github.io/static/9794b8622d268f3c45f639f843a6bc89/d945d/os-computer-system.webp width=800 >
 
 
 
